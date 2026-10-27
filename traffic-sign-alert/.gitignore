@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+# raw and processed data are large and dataset-specific - don't commit
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# trained weights/checkpoints
+models/runs/
+*.pt
+*.onnx

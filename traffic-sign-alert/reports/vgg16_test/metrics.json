@@ -1,0 +1,86 @@
+{
+  "split": "test",
+  "n": 597,
+  "n_classes": 52,
+  "accuracy": 0.9949748743718593,
+  "macro_precision": 0.9899038461538462,
+  "macro_recall": 0.9860347985347986,
+  "macro_f1": 0.9863717479102095,
+  "val_accuracy_from_ckpt": 0.9980916030534351,
+  "errors": 3,
+  "lowest_recall": [
+    {
+      "class": "32_Road_Divider",
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "f1": 0.8,
+      "support": 3,
+      "top_confusion": {
+        "predicted": "34_Danger_Ahead",
+        "count": 1
+      }
+    },
+    {
+      "class": "23_Go_Left_or_right",
+      "recall": 0.75,
+      "precision": 1.0,
+      "f1": 0.8571428571428571,
+      "support": 4,
+      "top_confusion": {
+        "predicted": "22_Go_Left",
+        "count": 1
+      }
+    },
+    {
+      "class": "39_Dangerous_curve_to_the_right",
+      "recall": 0.8571428571428571,
+      "precision": 1.0,
+      "f1": 0.9230769230769231,
+      "support": 7,
+      "top_confusion": {
+        "predicted": "38_Dangerous_curve_to_the_left",
+        "count": 1
+      }
+    },
+    {
+      "class": "28_watch_out_for_cars",
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "support": 47,
+      "top_confusion": null
+    },
+    {
+      "class": "19_No_stopping",
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "support": 45,
+      "top_confusion": null
+    },
+    {
+      "class": "03_Speed_limit_40km_h",
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "support": 30,
+      "top_confusion": null
+    },
+    {
+      "class": "26_keep_Right",
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "support": 24,
+      "top_confusion": null
+    },
+    {
+      "class": "05_Speed_limit_60km_h",
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "support": 23,
+      "top_confusion": null
+    }
+  ]
+}

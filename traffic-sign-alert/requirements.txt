@@ -1,0 +1,12 @@
+ultralytics==8.3.*        # YOLOv8 - detection/recognition backbone
+torch>=2.2                # required by ultralytics + used for VGG16/attention
+torchvision>=0.17         # provides pretrained VGG16
+opencv-python-headless    # frame extraction from dashcam video
+numpy
+pandas
+scikit-learn              # train/val/test splitting utilities
+pyyaml                    # YOLO data.yaml config
+tqdm                      # progress bars in preprocessing scripts
+matplotlib                # quick plots for evaluation
+Pillow                    # ROI crops / ImageFolder helpers
+pyttsx3                   # optional TTS for hearing-driver alerts (MANUAL system deps may apply)

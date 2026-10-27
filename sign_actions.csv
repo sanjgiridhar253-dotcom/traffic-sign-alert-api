@@ -1,0 +1,53 @@
+sign,action
+speed_limit_5kmph,The vehicle speed should not exceed 5 km/h.
+speed_limit_15kmph,The vehicle speed should not exceed 15 km/h.
+speed_limit_30kmph,The vehicle speed should not exceed 30 km/h.
+speed_limit_40kmph,The vehicle speed should not exceed 40 km/h.
+speed_limit_50kmph,The vehicle speed should not exceed 50 km/h.
+speed_limit_60kmph,The vehicle speed should not exceed 60 km/h.
+speed_limit_70kmph,The vehicle speed should not exceed 70 km/h.
+speed_limit_80kmph,The vehicle speed should not exceed 80 km/h.
+dont_go_straight_or_left,Do not go straight or turn left; follow only the allowed direction.
+unknown7,Unknown7 sign detected. Proceed with caution and watch for other road users.
+dont_go_straight,Do not go straight; choose an allowed turn instead.
+dont_go_left,Do not turn left.
+dont_go_left_or_right,Do not turn left or right; go straight only if allowed.
+dont_go_right,Do not turn right.
+dont_overtake_from_left,Do not overtake from the left.
+no_uturn,Do not make a U-turn.
+no_car,Cars are not allowed; do not enter this road with a car.
+no_horn,Do not use the horn in this zone.
+no_entry,No entry; do not proceed into this road.
+no_stopping,No stopping; keep moving and do not stop here.
+go_straight_or_right,Go straight or turn right.
+go_straight,Go straight ahead.
+go_left,Turn left.
+go_left_or_right,Turn left or turn right.
+go_right,Turn right.
+keep_left,Keep left and stay in the left lane/path.
+keep_right,Keep right and stay in the right lane/path.
+roundabout_mandatory,Enter the roundabout and circulate in the indicated direction.
+watch_out_for_cars,Watch out for cars; slow down and scan surroundings.
+horn,Horn is allowed in this zone; use only if needed.
+bicycles_crossing,Bicycles may be crossing; slow down and yield if needed.
+uturn,U-turn ahead is allowed; check traffic before turning.
+road_divider,Road divider ahead; stay in your lane.
+unknown6,Unknown6 sign detected. Proceed with caution and watch for other road users.
+danger_ahead,Danger ahead; slow down immediately and prepare to stop if needed.
+zebra_crossing,Zebra crossing ahead; slow down and be ready to stop for pedestrians.
+bicycles_crossing_2,Bicycles may be crossing; slow down and yield if needed.
+children_crossing,Children may be crossing; slow down and watch both sides of the road.
+dangerous_curve_to_the_left,Dangerous curve to the left; reduce speed and stay in lane.
+dangerous_curve_to_the_right,Dangerous curve to the right; reduce speed and stay in lane.
+unknown1,Unknown1 sign detected. Proceed with caution and watch for other road users.
+unknown2,Unknown2 sign detected. Proceed with caution and watch for other road users.
+unknown3,Unknown3 sign detected. Proceed with caution and watch for other road users.
+go_right_or_straight,Go right or go straight.
+go_left_or_straight,Go left or go straight.
+unknown4,Unknown4 sign detected. Proceed with caution and watch for other road users.
+zigzag_curve,Zig-zag curve ahead; reduce speed and stay in lane.
+train_crossing,Train crossing ahead; slow down and be ready to stop.
+under_construction,Road under construction; slow down and follow detours or workers' instructions.
+unknown5,Unknown5 sign detected. Proceed with caution and watch for other road users.
+fences,Fence or barrier area ahead; drive carefully and keep clear of barriers.
+heavy_vehicle_accidents,Heavy-vehicle hazard area; increase following distance and drive carefully.

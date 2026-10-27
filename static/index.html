@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102033">
+  <title>Sign alert</title>
+  <link rel="stylesheet" href="/static/styles.css?v=12">
+</head>
+<body>
+  <main class="phone">
+    <div id="notices" class="notices" aria-live="polite"></div>
+    <header>
+      <p class="eyebrow">Dashcam clip</p>
+      <h1>Sign alert</h1>
+      <p class="lede">Playing camera00_second_clip_197_frames.mp4. The clip is checked at 24 frames per second, then each sign is matched to the action stored for it.</p>
+    </header>
+
+    <video id="preview" controls playsinline></video>
+
+    <div class="controls">
+      <button id="choose" class="button primary" type="button">Choose MP4</button>
+      <div id="chooser" class="chooser" hidden>
+        <button id="use-long" type="button">camera00_second_clip_197_frames.mp4</button>
+        <button id="use-dashcam" type="button">camera00_test_5_6s.mp4</button>
+        <button id="use-sample" type="button">Sample clip</button>
+        <label class="upload">
+          Upload an MP4
+          <input id="file" type="file" accept="video/mp4,video/quicktime,.mp4,.mov,.m4v">
+        </label>
+      </div>
+      <button id="sample" type="button">Reload longer clip</button>
+      <button id="check" type="button" disabled>Check signs</button>
+    </div>
+
+    <p id="status" role="status"></p>
+    <section id="results" aria-live="polite"></section>
+  </main>
+  <script src="/static/app.js?v=12"></script>
+</body>
+</html>

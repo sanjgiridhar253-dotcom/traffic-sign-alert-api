@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+traffic_sign_recognition_IEEE.docx
+traffic_sign_recognition_IEEE.pdf
+*.docx.bak
